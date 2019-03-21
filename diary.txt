@@ -1,0 +1,72 @@
+Date:           start:    finish:    activity           changes:
+
+21/09/17        17:30     18:00      learning spec      Read the spec in detail and retrieved the required files for the assignment! 
+
+21/09/17        19:00     20:00      coding             Rewrote to pass subset 0 and can do 90% of subset 1. Need to think of a better way to structure everything.. 
+
+21/09/17        10:20     11:00      coding             Works fully for subset 0 and 1 examples -> will do more testing tomorrow and implement subset 2
+
+22/09/17        12:30     17:00      coding/debug       Restructured code to work properly for subset 0-1. Alot neater and easier to understand. Previous version was not working with strings and
+                                                        also had a few bugs which were tedious to fix. (ended up starting over).. Definitely worth it though!    
+
+22/09/17        17:00     18:00      coding             Implemented subset 2 code. Seems to work well -> do more testing tonight/tomorrow. Also need to work on indenting to make the output code look
+                                                        nicer. (temporarily using a fixed amount of spaces right now to indent). Currently passing 9/16 simple auto tests
+
+22/09/17        23:00     00:00      testing/coding     Added break and continue. Played around and tested subset 2, works quite well so far !  
+
+23/09/17        13:00     00:00      coding/debug       On and off coding all day.. Alot of time spent on debugging. Indenting works 85% - will fix tomorrow hopefully. Need to implement for loops               
+24/09/17        13:00     14:30      debug/testing      Found bugs with indenting. Seems to work well now, need to test more. Need some small changes to get subset 3 fully working ! 
+
+25/09/17        23:30     01:00      debug/testing      Fixed many bugs, seems like indenting works. Can pass 16/16 simple auto tests, subsets 0 - 3. Will test more in the morning!                    
+
+25/09/17        13:00     20:00      testing sub 0-3    Fixed a couple of bugs with indenting. Also fixed floor // operator. Need to implement single line for statement, ~ negation and int().   
+
+25/09/17        23:00     00:00      debug              I think I found the last bug with indenting, works very well now. Hopefully no more problems... Moving onwards to sub 4 asap ! 
+
+26/09/17        on/off all day       debug/coding       Added code to translate range(), str(), int(), float(). Took extra long because I accidently deleted pypl.pl .. lucky had backup that
+                                                        wasn't too outdated. Will make sure to regularly create backups now !                     
+
+27/09/17        00:00     01:00      more testing       Fixed some type casting bugs. Trying to prepare code to start subset 4 (need to remove redundant/ambigious code).       
+
+27/09/17        on/off all day       start subset 4     Lists seem to be working well -> indexing, append, pop with no arg + 1 arg all works fine. 
+
+28/09/17        13:30     16:00      coding             len() with lists and strings working. Iteration over sys.stdin working. Fixed some bugs with pop().                    
+
+28/09/17        18:00     9:30       coding/debug       sys.stdin.readlines() working for most cases.. implemented dictionaries - works well -> need to fix a bug with the keys method.
+                                                        As of now, code does not work with cases like -> for i in (keys %dict), should be an easy fix for tomorrow.
+
+29/09/17        13:30     15:30      coding/debug       dict keys() method should now be fully working. Fixed some problems with for loops.
+
+29/09/17        17:00     20:30      coding             working for sorted() method. Need to do string formatting asap. 
+       
+30/09/17        23:45     02:15      coding/debug       Fixed sys.stdout.write() -> can now assign length of printed output to a variable. Fixed up other small bugs. Need to do thorough testing
+                                                        tomorrow to ensure everything is working together without clashes. After this, i can clean up code and finish up sub 4.         
+
+30/09/17        12:00     17:30      coding/debug       String formatting with % now fully working, still needs test thorough testing. Need to implement printing with end = "". Planning to do 
+                                                        some vigorous testing tonight. 
+
+30/09/17        22:00     00:30      debug/test         Fixed up alot of smaller bugs. Subsets 0-4 working pretty solid at the moment. Will need to do more testing and find edge cases to make sure
+                                                        my prog doesn't mess up in the autotest. 
+
+01/09/17        23:00     03:30      debug/test         Doing tests and fixing small bugs. Trying to get subset 4 fully working for a variety of programs.     
+
+02/09/17        12:30     18:15      debug/test         Running more tests and fixing small bugs as i find them. Finished writing test script, just need to add more tests now. 
+
+02/09/17        20:30     22:45      more testing       Constantly testing and making small changes. 
+
+03/09/17        00:00     02:30      debug/comments     Added comments to code, also fixed up alot of small bugs. 
+
+03/09/17        all day              debug/testing      Finished test and demo scripts, also fixed up a few more bugs.. Almost ready for submission ! 
+
+04/09/17        all day              final changes      Fixed some spacing problems and other small bugs.. Fully done hopefully ! 
+
+Goal:                                         Status
+To pass subsets 0-3 asap                      Done 
+Hopefully to get subset 4 working 90-95%.     Done
+Make code shorter, more efficient             Done
+Think of edge test cases                      Done
+Finish test and demo cases                    Done
+Submit                                        Done
+
+
+Allan Lai Diary Comp2041 ass1 -> z5117352
